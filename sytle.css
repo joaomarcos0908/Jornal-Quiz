@@ -35,3 +35,7 @@ background-color: yellow;
      border-radius: 30px;
 
 }
+.main img {
+  width: 100%;
+  object-fit: cover;
+}

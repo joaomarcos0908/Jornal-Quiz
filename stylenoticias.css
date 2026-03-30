@@ -1,5 +1,7 @@
+
 #titulo{
     color: red;
+    background-color: aquamarine;
     font-size: 80px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
@@ -9,7 +11,8 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    color:blue
+    color:blue;
+    background-color: antiquewhite;
 }
 .butao{
 

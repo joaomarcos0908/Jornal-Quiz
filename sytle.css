@@ -1,9 +1,9 @@
-.conteiner{
+.container{
     display:grid;
-    grid-template-areas: "header header"
-                           "navbar navbar"
-                          "main    sidebar"
-                          "footer  footer";
+    grid-template-areas: "header header header header"
+                           "navbar navbar navbar navbar"
+                          "main  main main   sidebar"
+                          "footer  footer footer footer";
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto 1fr auto;
                                                      
@@ -27,4 +27,11 @@ background-color: brown;
 .footer{
 grid-area: footer;
 background-color: yellow;
+}
+
+.butao{
+
+     background-color: burlywood;
+     border-radius: 30px;
+
 }

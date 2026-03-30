@@ -1,0 +1,19 @@
+#titulo{
+    color: red;
+    font-size: 80px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    color:blue
+}
+.butao{
+
+     background-color: burlywood;
+     border-radius: 30px;
+
+}

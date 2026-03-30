@@ -1,4 +1,24 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff; 
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    padding: 50px 20px; 
+}
+
+#titulo, .texto, .butao {
+    max-width: 800px;
+    margin: 0 auto; 
+    width: 100%;
+    display: block; 
+}
+
+
 #titulo {
     color: #001c8a;
     font-size: 42px;
@@ -43,25 +63,3 @@
     background-color: #000d4a; 
 }
 
-
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #ffffff; 
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    padding: 50px 20px; 
-}
-
-#titulo, .texto, .butao {
-    max-width: 800px;
-    margin: 0 auto; 
-    width: 100%;
-    display: block; 
-}
